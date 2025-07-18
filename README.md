@@ -1,6 +1,6 @@
 # 🩺 Oncology Treatment Monitoring Panel – Brazil (2013–2023)
 
-## Dataset link :
+## Dataset link : [Oncology Treatment DataSUS – Brazil (2013–2023)](https://www.kaggle.com/datasets/lhucastenorio/oncology-treatment-datasus-brazil-20132023)
 
 ## 📁 Description of Files and Folders
 
@@ -55,22 +55,27 @@ Each row represents an oncological case identified by a unique National Health C
 | Column           | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
 | `ano_diagn`      | Year of diagnosis (YYYY)                                                    |
+| `anomes_dia`     | Year and month of diagnosis (YYYYMM)                                        |
 | `ano_tratam`     | Year of first treatment (YYYY)                                              |
-| `tempo_trat`     | Time interval between diagnosis and first treatment (in days)               |
+| `anomes_tra`     | Year and month of first treatment (YYYYMM)                                  |
+| `uf_resid`       | State of residence (IBGE code)                                              |
+| `mun_resid`      | Municipality of residence (IBGE code)                                       |
+| `uf_tratam`      | State where treatment was initiated                                         |
+| `mun_tratam`     | Municipality where treatment was initiated                                  |
+| `uf_diagn`       | State where diagnosis occurred                                              |
+| `mun_diag`       | Municipality where diagnosis occurred                                       |
 | `tratamento`     | First treatment modality (surgery, chemo, radiotherapy, both, etc.)         |
 | `diagnostic`     | Diagnostic category (malignant, in situ, uncertain behavior)                |
-| `diag_deth`      | Detailed diagnosis code (ICD-10)                                             |
 | `idade`          | Age at diagnosis                                                            |
 | `sexo`           | Patient sex                                                                 |
 | `estadiam`       | Cancer stage at treatment (I, II, III, IV, not applicable, unknown)         |
-| `uf_resid`       | State of residence (IBGE code)                                              |
-| `mun_resid`      | Municipality of residence (IBGE code)                                       |
-| `uf_diagn`       | State where diagnosis occurred                                              |
-| `mun_diag`       | Municipality where diagnosis occurred                                       |
-| `uf_tratam`      | State where treatment was initiated                                         |
-| `mun_tratam`     | Municipality where treatment was initiated                                  |
+| `cnes_diag`      | Establishment Code in the CNES (National Registry of Health Establishments) where the diagnosis was recorded                |
+| `cnes_trat`      | Establishment Code in the CNES (National Registry of Health Establishments) where the first treatment was registered        |
+| `tempo_trat`     | Time interval between diagnosis and first treatment (in days)               |
+| `cnes_pac`       | National Health Card (no values)                                            |
+| `diag_deth`      | Detailed diagnosis code (ICD-10)                                            |
 | `dt_diag`        | Date of diagnosis (DD/MM/YYYY)                                              |
-| `dt_trat`        | Date of first treatment (DD/MM/YYYY)                                       |
+| `dt_trat`        | Date of first treatment (DD/MM/YYYY)                                        |
 | `dt_nasc`        | Patient’s date of birth (DD/MM/YYYY)                                        |
 
 ---
