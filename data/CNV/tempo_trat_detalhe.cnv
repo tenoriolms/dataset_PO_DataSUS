@@ -1,0 +1,18 @@
+17  5 
+     17  Sem informação de tratamento                            -zzzzz
+      1   -90 dias a -61 dias                               -0061--0090
+      2   -60 dias a -31 dias                               -0031--0060
+      3   -30 dias a -1 dia                                 -0001--0030
+      4  mesmo dia (tempo 0 dia)                            +0000
+      5  1 a 10 dias                                        +0001-+0010
+      6  11 a 20 dias                                       +0011-+0020
+      7  21 a 30 dias                                       +0021-+0030
+      8  31 a 40 dias                                       +0031-+0040
+      9  41 a 50 dias                                       +0041-+0050
+     10  51 a 60 dia                                        +0051-+0060
+     11  61 a 90 dias                                       +0061-+0090
+     12  91 a 120 dias                                      +0091-+0120
+     13  121 dias a 300 dias                                +0121-+0300
+     14  301 dias a 365 dias                                +0301-+0365
+     15  366 a 730 dias                                     +0366-+0730
+     16  mais de dois anos                                  +0731-+9999

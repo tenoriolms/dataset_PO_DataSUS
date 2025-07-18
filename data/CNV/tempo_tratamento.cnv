@@ -1,0 +1,5 @@
+4  5  L; Tempo Exame
+      4  Sem informação de tratamento                            -zzzzz,99999,
+      1  Até 30 dias                                        +0000-+0030,-0001--0090,
+      2  31 - 60 dias                                       +0031-+0060,
+      3  Mais de 60                                         +0061-+9999,

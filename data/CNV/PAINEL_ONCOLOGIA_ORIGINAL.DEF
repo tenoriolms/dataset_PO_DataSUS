@@ -1,0 +1,33 @@
+;Painel-Oncologia - BRASIL
+A.\dados\PO*.DBC
+
+XRegião de tratamento,         MUN_TRATAM    , 1, BR_REGIAO.CNV
+XUF do tratamento,             UF_TRATAM     , 1, BR_UF.CNV
+XRegião de Saúde do tratament, MUN_TRATAM    , 1, BR_REGSAUD.CNV
+LMunicípio do tratamento,      MUN_TRATAM    , 1, BR_MUNICIP.CNV
+SMunicípio do tratamento,      MUN_TRATAM    , 1, BR_MUNICIP.CNV
+XRegião de residência,         MUN_RESID     , 1, BR_REGIAO.CNV
+XUF da residência,             UF_RESID      , 1, BR_UF.CNV
+XRegião de Saúde da residência,MUN_RESID     , 1, BR_REGSAUD.CNV
+LMunicípio  da residência,     MUN_RESID     , 1, BR_MUNICIP.CNV
+SMunicípio  da residência,     MUN_RESID     , 1, BR_MUNICIP.CNV
+XSexo,                         SEXO          , 1, SEXO.CNV
+XIdade,                        IDADE         , 1, IDADE.CNV
+XFaixa etária,                 IDADE         , 1, FAIXA_ETARIA.CNV
+XAno do diagnóstico,           ANO_DIAGN     , 1, ANO_DIAGNOSTICO.CNV
+XMês/Ano do diagnóstico,       ANOMES_DIA    , 1, PERIODO_DIAGNOSTICO.CNV
+Xdiagnóstico,                  DIAGNOSTIC    , 1, DIAGNOSTICO_AGR.CNV
+Xdiagnóstico Detalhado,        DIAG_DETH     , 1, DIAGNOSTICO.CNV
+XAno do tratamento,            ANO_TRATAM    , 1, ANO_TRATAMENTO.CNV
+XMês/Ano do tratamento,        ANOMES_TRA    , 1, PERIODO_TRATAMENTO.CNV
+XModalidade Terapêutica,       TRATAMENTO    , 1, TP_TRATAMENTO.CNV
+XRegião de diagnóstico,        MUN_DIAG      , 1, BR_REGIAO.CNV
+XUF do diagnóstico,            UF_DIAGN      , 1, BR_UF.CNV
+XRegião de Saúde da diagnóst,  MUN_DIAG      , 1, BR_REGSAUD.CNV
+LMunicípio do diagnóstico,     MUN_DIAG      , 1, BR_MUNICIP.CNV
+SSMunicípio do diagnóstico,    MUN_DIAG      , 1, BR_MUNICIP.CNV
+XEstadiamento,                 ESTADIAM      , 1, ESTADIAMENTO.CNV
+XTempo Tratamento,             TEMPO_TRAT    , 1, TEMPO_TRATAMENTO.CNV
+XTempo Tratamento (detalhado), TEMPO_TRAT    , 1, TEMPO_TRAT_DETALHE.CNV
+XEstabelecimento de tratamento,CNES_TRAT     , 1, CNES_TRATAMENTO.CNV
+XEstabelecimento diagnóstico,  CNES_DIAG     , 1, CNES_DIAGNOSTICO.CNV

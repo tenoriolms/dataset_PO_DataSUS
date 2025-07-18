@@ -1,0 +1,17 @@
+XMês/Ano do diagnóstico,       ANOMES_DIA    , 1, PERIODO_DIAGNOSTICO.CNV
+XMês/Ano do tratamento,        ANOMES_TRA    , 1, PERIODO_TRATAMENTO.CNV
+XUF da residência,             UF_RESID      , 1, BR_UF.CNV
+LMunicípio  da residência,     MUN_RESID     , 1, BR_MUNICIP.CNV
+XUF do tratamento,             UF_TRATAM     , 1, BR_UF.CNV
+LMunicípio do tratamento,      MUN_TRATAM    , 1, BR_MUNICIP.CNV
+XUF do diagnóstico,            UF_DIAGN      , 1, BR_UF.CNV
+LMunicípio do diagnóstico,     MUN_DIAG      , 1, BR_MUNICIP.CNV
+XModalidade Terapêutica,       TRATAMENTO    , 1, TP_TRATAMENTO.CNV
+Xdiagnóstico,                  DIAGNOSTIC    , 1, DIAGNOSTICO_AGR.CNV
+XIdade,                        IDADE         , 1, IDADE.CNV
+XSexo,                         SEXO          , 1, SEXO.CNV
+XEstadiamento,                 ESTADIAM      , 1, ESTADIAMENTO.CNV
+XEstabelecimento diagnóstico,  CNES_DIAG     , 1, CNES_DIAGNOSTICO.CNV
+XEstabelecimento de tratamento,CNES_TRAT     , 1, CNES_TRATAMENTO.CNV
+XTempo Tratamento (detalhado), TEMPO_TRAT    , 1, TEMPO_TRAT_DETALHE.CNV
+Xdiagnóstico Detalhado,        DIAG_DETH     , 1, DIAGNOSTICO.CNV
